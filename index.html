@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Minas Programam - Mulheres cineastas</title>
+    <link rel="shortcut icon" href="imgs/favicon.ico/favicon-32x32.png" type="image/icon"/>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="imgs/cineastas.svg" alt="Logo Mulheres cineastas" class="cabecalho-imagem">
+        <nav class="cabecalho-menu">
+                <a href="#diretoras" class="cabecalho-menu-item"><strong>Diretoras</strong></a>
+                <a href="#inscreva" class="cabecalho-menu-item"><strong>Inscreva-se</strong></a>
+                <a href="#contato" class="cabecalho-menu-item"><strong>Contato</strong></a>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="imagens-hero1">
+            <div class="imagens-hero">
+            <div class="hero-text">
+                <h1 class="hero-h1">Conheça diretoras negras do cinema brasileiro que fizeram e fazem a História</h1>
+                <br>
+                <a href="#diretoras"><button class="botao-hero"><strong>O olhar feminino por trás das câmeras</strong></button></a>
+            </div>
+            </div>
+        </section>
+        <h1 id="diretoras" class="titulo-diretoras"><strong>Diretoras brasileiras para conhecer:</strong></h1>
+        <section class="conteudo-diretoras-body">
+            <div class="card">
+                <img class="user" src="imgs/adelia-sampaio-rgb.jpg" alt="Adélia Sampaio">
+                <h3 class="conteudo-diretoras-titulo"><strong>Adélia Sampaio</strong></h3>
+                <br>
+                <p class="conteudo-diretoras-paragrafo">Adélia Sampaio foi a primeira diretora negra de ficção brasileira, filha de empregada doméstica, atuou no cinema em diversas funções: continuísta, maquiadora, câmera, montadora e produtora. Lançou em 1984, o longa Amor Maldito, inspirado no caso real de uma mulher lésbica com a justiça. No filme, a personagem está sendo julgada como culpada pela morte de sua companheira, que na verdade cometeu suicídio.</p>
+                <br>
+                <a href="https://letterboxd.com/director/adelia-sampaio/" target="_blank"><button type="button" class="conteudo-diretoras-botao1">Conheça mais</button></a>
+            </div>
+            <div class="card">
+                <img class="user" src="imgs/Ana Flavia Cavalcanti.jpeg" alt="Ana Flávia Cavalcanti">
+                <h3 class="conteudo-diretoras-titulo"><strong>Ana Flávia Cavalcanti</strong></h3>
+                <br>
+                <p class="conteudo-diretoras-paragrafo">Ana Flávia Cavalcanti, atriz que interpretou Dóris na Malhação em 2017, dá voz às mulheres negras e empregadas domésticas em Rã, curta-metragem em que desenvolveu o roteiro retirando o argumento de sua infância, fez a produção e direção, além de atuar interpretando a própria mãe. </p>
+                <br>
+                <a href="https://letterboxd.com/director/ana-flavia-cavalcanti/" target="_blank"><button type="button" class="conteudo-diretoras-botao2">Conheça mais</button></a>
+                
+            </div>
+            
+            <div class="card">
+                <img class="user" src="imgs/Renata Martins.jpg" alt="Renata Martins">
+                <h3 class="conteudo-diretoras-titulo"><strong>Renata Martins</strong></h3>
+                <br>
+                <p class="conteudo-diretoras-paragrafo">Renata Martins é a cineasta que escreveu, produziu e dirigiu o curta Sem Asas, que conta a história de um menino negro de 12 anos que sai para ir ao mercado comprar farinha de trigo para a mãe e na volta descobre que pode voar. Atualmente trabalha na produção da web série Empoderadas, que conta com a equipe de mulheres negras na produção audiovisual e visa expor o racismo e machismo e ampliar a representação e representatividade de mulheres negras, tanto diante quanto atrás das telas.</p>
+                <br>
+                <a href="https://letterboxd.com/director/renata-martins-1/" target="_blank"><button type="button" class="conteudo-diretoras-botao3">Conheça mais</button></a>
+            </div>
+            <div  class="card">
+                <img class="user" src="imgs/VIVIANE FERREIRA.webp" alt="Viviane Ferreira">
+                <h3 class="conteudo-diretoras-titulo"><strong>Viviane Ferreira</strong></h3>
+                <br>
+                <p class="conteudo-diretoras-paragrafo">Viviane Ferreira, é a segunda cineasta negra à dirigir um longa-metragem no Brasil, O dia de Jerusa, história que gira em torno de duas gerações de mulheres negras, que partilham memória e vivências, assim encontrando respostas para amenizar a solidão cotidiana. O filme foi exibido na 23º mostra de Cinema de Tiradentes.</p>
+                <br>
+                <a href="https://letterboxd.com/director/viviane-ferreira/" target="_blank"><button type="submit" class="conteudo-diretoras-botao4" >Conheça mais</button></a>
+            </div>
+            <br>
+        </section>
+
+    </main>
+    <section>
+        <form id="inscreva" class="formulario" method="post"> 
+            <p> Envie uma mensagem preenchendo o formulário abaixo</p>
+            
+            <div class="field">
+                <label for="nome">Seu Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+            </div>
+            
+            <div class="field">
+                <label for="telefone">Seu Telefone:</label>
+                <input type="text" id="telefone" name="telefone" placeholder="Digite seu Telefone">
+            </div>
+    
+            <div class="field">
+                <label for="email">Seu E-Mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+            </div>        
+            <div class="field radiobox">
+                <span>Deseja receber nossas novidades?</span>
+                <input type="radio" name="novidades" id="sim" value="sim" checked><label for="sim">Sim</label>
+                <input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+            </div>
+            <div class="field">
+                <label for="mensagem">Sua mensagem:</label>
+                <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+            </div>
+    
+            <input type="submit" name="acao" value="Enviar">
+        </form>
+
+    </section>
+
+    <footer >
+
+        <section class="footer">
+            <div id="contato" class="contato">
+                    <a href="mailto:jhacck25@gmail.com" target="_blank" class="contato">
+                    <img src="imgs/envelope.svg" alt="icon/email" class="img-footer">
+                    </a>
+                    <a href="https://linkedin.com/in/jaqueline-silva-053663163" target="_blank" class="contato">
+                    <img src="imgs/linkedin.svg" alt="icon/linkedin" class="img-footer">
+                    </a>
+                    <a href="https://github.com/Jhacck" target="_blank" class="contato">
+                    <img src="imgs/github.svg" alt="icon/github" class="img-footer">
+                    </a>
+            </div>
+        </section>
+
+    </footer>
+    
+</body>
+
+</html>
